@@ -4,12 +4,15 @@
   "description": "RestAPI server using nodejs - Pizza App",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "pizza": "nodemon server.js"
   },
   "author": "Kevin Dong",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "mongoose": "^5.8.1",
     "nodemon": "^2.0.2"
   }
 }
