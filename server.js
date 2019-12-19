@@ -21,7 +21,7 @@ const userRouter = require('./routes/UserRoute');
 
 serverWork.use(bodyparser());
 serverWork.use('/food',pizzaRouter);
-serverWork.use('/user',userRouter);
+//serverWork.use('/user',userRouter);
 
 
 //Testing if the server still good?
